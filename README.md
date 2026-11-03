@@ -1,37 +1,25 @@
-# 🎮 Number Guessing Game - Python
 
- where the computer picks a number and you have to guess it!
+# 🎯 Number Guessing Game - Python
 
-### 📖 About The Project
-This is a simple yet engaging Number Guessing Game built in Python. The computer randomly selects a number between 1-100 and the player gets 5 chances to guess it with smart hints.
+A fun and interactive number guessing game built with Python! The computer picks a random number and you have to guess it.
 
-This project is created as a part of PBL (Project Based Learning) for Brainware University.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![Game](https://img.shields.io/badge/Game-Number%20Guessing-green?style=for-the-badge)
 
-### ✨ Features
-- Random number generation (1-100)
-- 5 chances to guess
-- Smart hints - Bigger / Smaller
-- Input validation
-- User-friendly interface
+## 📖 About The Project
+This is a simple console-based game developed as a part of my B.Tech CSE 3rd Year Project Based Learning (PBL).
 
-### 🛠️ Tech Stack
-- Language: Python 3
-- Module Used: random module
+The game generates a random number between 1 and 100 and gives the player hints (Too High / Too Low) until the correct number is guessed. It also counts the number of attempts.
 
-### ▶️ How to Run
-1. Clone this repository
-2. Run the file: python main.py
-3. Start guessing!
+## ✨ Features
+- 🎲 Random number generation (1-100)
+- 💡 Smart hints - Tells if guess is too high or too low
+- 🔢 Attempt counter
+- 🎮 User-friendly gameplay
+- 🔁 Play again option
 
-### 🧠 How it Works
-Computer picks -> 67 (hidden)
-You guess 50 -> Hint: Aro BORO bolo
-You guess 80 -> Hint: Aro CHOTO bolo
-You guess 67 -> You Win!
-
-### 👨‍🎓 Developed By
-Subhadeep Bera
-Brainware University - cse 3rd Semester
-
----
-⭐ If you like this project, give it a star!
+## 🚀 How to Run
+1. Clone the repository
+2. Run the Python file:
+```bash
+python main.py
